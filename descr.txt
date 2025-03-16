@@ -1,1 +1,1 @@
-command to run index.ts =>  node --loader ts-node/esm d:/GG/HUXN/Typescript/typescript-basics/index.ts
+command to run index.ts =>  node --loader ts-node/esm <path>/index.ts
