@@ -133,3 +133,25 @@ function throwError(message: string): never {
     }
   }
   
+  // -----------------------------------------------------------------------------
+/*
+  ARRAY TYPES
+In TypeScript, you can define array types in two ways:
+
+Using Type[] syntax
+Using Array<Type> syntax
+
+Both are equivalent and specify that the array will only contain elements of a certain type.
+Key Points:
+You can specify the type of the array elements.
+Arrays can store elements of a single type or, with more advanced types, different types.
+
+  */
+
+let numbers: number[] = [1, 2, 3, 4]; // Array of numbers
+let strings: string[] = ["apple", "banana"]; // Array of strings
+
+let numbers1: Array<number> = [1, 2, 3, 4]; // Array of numbers
+let strings1: Array<string> = ["apple", "banana"]; // Array of strings
+// Example with mixed types (using tuples):
+let mixed: [string, number] = ["apple", 5];  // Tuple: a fixed-size array with specific types
